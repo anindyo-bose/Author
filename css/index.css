@@ -1,8 +1,63 @@
 body{
   background:url( '../images/back.jpg');
   background-repeat: no-repeat;
-    background-size:50% 80%;
+    background-size:30% 65%;
     background-attachment: fixed;
     background-position: bottom right;
 
+}
+
+
+.frame{
+  opacity: 1;
+
+
+}
+.margins{
+  margin: 10;
+  position: fixed;
+  bottom: 0;
+  padding: 20;
+  align-content: center;
+}
+
+h1{
+  padding-right: 28px;
+  padding-left: 28px;
+  margin: 10px;
+
+}
+
+.window-height{
+  max-height: 475;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+
+.window-width{
+  width: 100%;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: black;
 }
