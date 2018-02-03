@@ -1,15 +1,20 @@
 body{
   background:url( '../images/back.jpg');
   background-repeat: no-repeat;
-    background-size:30% 65%;
+    background-size:35% 65%;
     background-attachment: fixed;
     background-position: bottom right;
 
 }
 
+.divback{
+  opacity: 9;
 
+}
 .frame{
   opacity: 1;
+  margin: 5;
+  padding: 5;
 
 
 }
@@ -17,15 +22,18 @@ body{
   margin: 10;
   position: fixed;
   bottom: 0;
-  padding: 20;
+  
   align-content: center;
+  margin-bottom: 1;
+
+  background-color: white
 }
 
-h1{
+h1,h3,h2,p{
   padding-right: 28px;
   padding-left: 28px;
   margin: 10px;
-
+  padding-bottom: 10px;
 }
 
 .window-height{

@@ -5,11 +5,20 @@
   <link href="../css/core.css" rel="stylesheet">
 </head>
 <body>
+  <div class="w3-hide-large w3-bar w3-red ">
+      <a  href="#about" class="w3-bar-item w3-button">About me</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large " onclick="myFunction()">&#9776;</a>
+  </div>
+  <div id="demo" class="w3-bar-block w3-red w3-hide w3-hide-large ">
+      <a  href="../index.html#home" class="w3-bar-item w3-button">Home</a>
+      <a  href="book.html" class="w3-bar-item w3-button">Books</a>
+      <a  href="#story" class="w3-bar-item w3-button">Short Stories</a>
+  </div>
   <br>
 <h1>Indranil Mukherjee</h1>
 <div class="margins window-width">
-  
-  <ul class="nav nav-tabs">
+
+  <ul class="nav nav-tabs w3-hide-small w3-hide-medium">
     <li ><a data-toggle="tab" href="../index.html">Home</a></li>
     <li><a  data-toggle="tab" href="about.html">About me</a></li>
     <li class="active"><a  href="#">Books</a></li>
@@ -17,4 +26,14 @@
   </ul>
 </div>
 </body>
+<script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+  } else {
+      x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
 </html>
