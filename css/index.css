@@ -9,6 +9,7 @@ body{
 
 .divback{
   opacity: 9;
+  background: #FAEBD7 !important;
 
 }
 .frame{
@@ -22,18 +23,22 @@ body{
   margin: 10;
   position: fixed;
   bottom: 0;
-  
+  padding: 5;
   align-content: center;
   margin-bottom: 1;
 
   background-color: white
 }
 
-h1,h3,h2,p{
+h1,h3,h2{
   padding-right: 28px;
   padding-left: 28px;
   margin: 10px;
   padding-bottom: 10px;
+}
+p{
+  padding-right: 28px;
+  padding-left: 28px;
 }
 
 .window-height{
