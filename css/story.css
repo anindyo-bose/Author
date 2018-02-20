@@ -1,5 +1,7 @@
 p {
   text-align: justify;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-style: normal;
 }
 
 body {
@@ -7,6 +9,8 @@ body {
 }
 h1{
   text-align:center;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-style: normal;
 }
 
 
